@@ -157,6 +157,8 @@ nav .menu input:checked~label .span3 {
     }
 }
 
+
+
 @media screen and (min-width: 1000px) {
     nav {
         margin-left: 100px;
