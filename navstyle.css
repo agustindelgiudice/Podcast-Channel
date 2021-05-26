@@ -134,6 +134,7 @@ nav .menu input:checked~label .span3 {
         right: 0;
         overflow: hidden;
         background-color: unset;
+        height: unset;
        
     }
 
