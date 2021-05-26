@@ -124,7 +124,7 @@ nav .menu input:checked~label .span3 {
     nav .logo {
         width: 36px;
         height: 36px;
-        
+
     }
 
 
@@ -138,10 +138,10 @@ nav .menu input:checked~label .span3 {
         overflow: hidden;
         background-color: unset;
         height: unset;
-       
+
     }
 
-    
+
 
     nav .menu ul li {
         padding-top: 0;
@@ -162,21 +162,9 @@ nav .menu input:checked~label .span3 {
     }
 }
 
-
 @media screen and (min-width: 1000px) {
     nav {
         margin-left: 100px;
         margin-right: 100px;
     }
 }
-
-
-
-
-
-
-
-      
-
-
-       
