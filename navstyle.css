@@ -114,7 +114,7 @@ nav .menu input:checked~label .span3 {
 
 /*-->MEDIAQUERY NAV<--*/
 
-@media screen and (min-width: 319px) {
+@media screen and (min-width: 320px) {
     nav {
         height: 80px;
         margin-right: 100px;
@@ -134,7 +134,6 @@ nav .menu input:checked~label .span3 {
         right: 0;
         overflow: hidden;
         background-color: unset;
-        height: unset;
        
     }
 
@@ -146,6 +145,10 @@ nav .menu input:checked~label .span3 {
     nav .menu ul li a {
         color: #060A24;
 
+    }
+
+    nav .menu input {
+        display: none;
     }
 
     nav .menu span {
