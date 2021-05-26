@@ -221,6 +221,8 @@ header button:hover {
 
   /*-->MEDIAQUERY EPISODIOS<--*/
 
+
+
   @media screen and (min-width: 1000px) {
     .episodios {
         height: 882.5px;
@@ -240,6 +242,7 @@ header button:hover {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        
     }
 
     .episodios .podcasts .pod {
@@ -735,6 +738,12 @@ header button:hover {
 @media screen and (min-width: 900px) {
     .invitados .fotos-contenedor .foto-inv {
         width: 33.3%;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .invitados .fotos-contenedor .foto-inv {
+        width: 100%;
     }
 }
 
