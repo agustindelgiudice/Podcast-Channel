@@ -114,7 +114,8 @@ nav .menu input:checked~label .span3 {
 
 /*-->MEDIAQUERY NAV<--*/
 
-@media screen and (min-width: 319px) {
+
+@media screen and (min-width: 476px) {
     nav {
         height: 80px;
         margin-right: 100px;
@@ -125,6 +126,8 @@ nav .menu input:checked~label .span3 {
         height: 36px;
         
     }
+
+
 
     nav .menu ul {
         position: relative;
@@ -137,6 +140,8 @@ nav .menu input:checked~label .span3 {
         height: unset;
        
     }
+
+    
 
     nav .menu ul li {
         padding-top: 0;
